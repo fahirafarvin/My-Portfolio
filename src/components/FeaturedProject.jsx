@@ -17,7 +17,7 @@ export default function FeaturedProject() {
         <div className="grid md:grid-cols-2 gap-10">
           <div className="bg-white/80 backdrop-blur-md rounded-3xl shadow-xl overflow-hidden h-[320px]">
             <img
-              src="/Ascendia.png"
+              src={`${import.meta.env.BASE_URL}Ascendia.png`}
               alt="Ascendia Screenshot"
               className="w-full h-full object-cover"
             />
