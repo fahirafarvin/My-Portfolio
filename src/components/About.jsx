@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+
 export default function About() {
   return (
     <motion.section
@@ -9,29 +10,18 @@ export default function About() {
       id="about"
       className="py-28 px-6"
     >
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10">
-        <div>
-          <h2 className="text-4xl font-bold mb-6">About Me</h2>
+      <div className="max-w-4xl mx-auto text-center">
+        <h2 className="text-4xl font-bold mb-6">About Me</h2>
 
-          <p className="text-lg leading-relaxed text-[#456882]">
-            I am a Bachelor of Computer Applications student passionate about
-            web development, programming, and problem solving. I enjoy
-            transforming ideas into interactive digital experiences while
-            continuously expanding my skills in modern technologies.
-          </p>
-        </div>
-
-        <div className="bg-white/80 backdrop-blur-md rounded-3xl p-8 shadow-lg">
-          <h3 className="font-bold text-2xl mb-4">Quick Info</h3>
-
-          <div className="space-y-3">
-            <p>📍 Nagapattinam, Tamil Nadu</p>
-            <p>🎓 BCA Student</p>
-            <p>💻 Web Development</p>
-            <p>🎨 UI Design</p>
-            <p>🚀 Problem Solving</p>
-          </div>
-        </div>
+        <p className="text-lg leading-8 text-[#456882]">
+          I am a Bachelor of Computer Applications (BCA) student with a strong
+          interest in software development, web technologies, and
+          problem-solving. I have hands-on experience building responsive web
+          applications using React, JavaScript, Tailwind CSS, and modern
+          development tools. Through academic projects, internships, and
+          continuous learning, I am developing the technical and analytical
+          skills required to create efficient, user-focused software solutions.
+        </p>
       </div>
     </motion.section>
   );

@@ -6,7 +6,6 @@ import Internships from "./components/Internships";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Certificates from "./components/Certificates";
-import Learning from "./components/Learning";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -17,11 +16,10 @@ function App() {
       <Hero />
       <About />
       <FeaturedProject />
-      <Internships />
       <Projects />
+      <Internships />
       <Skills />
       <Certificates />
-      <Learning />
       <Contact />
       <Footer />
     </div>

@@ -28,7 +28,7 @@ export default function Projects() {
       className="py-24 px-6"
     >
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold mb-12 text-center">Other Projects</h2>
+        <h2 className="text-4xl font-bold mb-12 text-center">Projects</h2>
 
         <div className="grid md:grid-cols-3 gap-6">
           {projects.map((project) => (

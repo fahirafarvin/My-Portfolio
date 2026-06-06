@@ -57,14 +57,14 @@ export default function Hero() {
           transition={{ duration: 1 }}
           className="bg-white/70 backdrop-blur-md rounded-3xl p-8 shadow-xl"
         >
-          <h3 className="text-2xl font-bold mb-6">Developer Profile</h3>
+          <h3 className="text-2xl font-bold mb-6">Quick Overview</h3>
 
           <div className="space-y-4">
             <p>🎓 BCA Student</p>
-            <p>📍 Nagapattinam, Tamil Nadu</p>
-            <p>💻 React Enthusiast</p>
-            <p>🎮 Learning Game Creator</p>
-            <p>🚀 Continuous Learner</p>
+            <p>💻 Frontend Development</p>
+            <p>🤖 RPA Enthusiast</p>
+            <p>📍 Tamil Nadu, India</p>
+            <p>🚀 Open to Opportunities</p>
           </div>
         </motion.div>
       </div>

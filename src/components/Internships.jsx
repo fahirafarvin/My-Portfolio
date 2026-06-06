@@ -18,7 +18,14 @@ export default function Internships() {
               Frontend React Development
             </h3>
 
-            <p className="text-[#456882] mb-4">Qryptex</p>
+            <a
+              href="https://qryptex.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#456882] hover:underline"
+            >
+              Qryptex
+            </a>
 
             <p className="text-[#456882]">
               Worked on React applications, reusable components, responsive UI
