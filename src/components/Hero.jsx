@@ -42,7 +42,7 @@ export default function Hero() {
               Contact Me
             </a>
             <a
-              href="/resume.pdf"
+              href="/Fahira_Farvin_Resume.pdf"
               target="_blank"
               className="bg-[#456882] text-white px-6 py-3 rounded-full hover:scale-105 transition"
             >
