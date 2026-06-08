@@ -42,7 +42,7 @@ export default function Hero() {
               Contact Me
             </a>
             <a
-              href="/Fahira_Farvin_Resume.pdf"
+              href={`${import.meta.env.BASE_URL}Fahira_Farvin_resume.pdf`}
               target="_blank"
               className="bg-[#456882] text-white px-6 py-3 rounded-full hover:scale-105 transition"
             >
