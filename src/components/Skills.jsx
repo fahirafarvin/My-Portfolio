@@ -13,7 +13,6 @@ import {
   SiJavascript,
   SiTailwindcss,
   SiBootstrap,
-  SiPython,
   SiUipath,
 } from "react-icons/si";
 
@@ -25,7 +24,6 @@ export default function Skills() {
     { name: "React", icon: FaReact },
     { name: "Tailwind CSS", icon: SiTailwindcss },
     { name: "Bootstrap", icon: SiBootstrap },
-    { name: "Python", icon: SiPython },
     { name: "Java", icon: FaJava },
     { name: "Git", icon: FaGitAlt },
     { name: "GitHub", icon: FaGithub },

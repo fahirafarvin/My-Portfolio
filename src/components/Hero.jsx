@@ -45,7 +45,7 @@ export default function Hero() {
               href="https://fahirafarvin.github.io/My-Portfolio/Fahira_Farvin_resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-3 bg-[#1B3C53] text-white rounded-full hover:bg-[#456882] transition-all duration-300"
+              className="inline-block px-8 py-4 bg-[#1B3C53] text-white rounded-full hover:bg-[#456882] transition-all duration-300"
             >
               Resume
             </a>
